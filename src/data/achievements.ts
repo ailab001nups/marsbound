@@ -1,0 +1,98 @@
+// ==========================================
+// MARSBOUND: MISSION ACHIEVEMENTS
+// ==========================================
+
+import { Achievement } from '../types/game';
+
+export const INITIAL_ACHIEVEMENTS: Achievement[] = [
+  {
+    id: 'first_sunrise',
+    title: 'First Sunrise',
+    description: 'Survive your first Martian Sol and establish baseline habitat life support.',
+    icon: '🌅',
+    unlocked: false,
+    category: 'survival',
+    educationalFact: 'A Martian sunrise looks distinctly bluish compared to Earth due to fine dust scattering blue light forward in the thin atmosphere.',
+  },
+  {
+    id: 'energy_expert',
+    title: 'Energy Expert',
+    description: 'Keep your outpost electrical grid above 70% capacity through careful power load balancing.',
+    icon: '⚡',
+    unlocked: false,
+    category: 'energy',
+    educationalFact: 'Space solar arrays produce direct current (DC), requiring solid-state power conditioning units to step voltages for life support systems.',
+  },
+  {
+    id: 'green_pioneer',
+    title: 'Green Pioneer',
+    description: 'Successfully expand hydroponic farm production and keep crew food reserves healthy.',
+    icon: '🌱',
+    unlocked: false,
+    category: 'food',
+    educationalFact: 'NASA’s Veggie plant growth facility proved that eating fresh salad greens in space provides critical mood-boosting phytonutrients.',
+  },
+  {
+    id: 'radiation_guardian',
+    title: 'Radiation Guardian',
+    description: 'Successfully shelter the crew during a solar storm without dangerous radiation absorption.',
+    icon: '🛡️',
+    unlocked: false,
+    category: 'survival',
+    educationalFact: 'Piling 1 meter of Martian soil (regolith) on habitat modules absorbs roughly the same radiation as Earth’s thick atmosphere.',
+  },
+  {
+    id: 'science_explorer',
+    title: 'Science Explorer',
+    description: 'Accumulate 100 or more scientific research points through active Martian geology and biology studies.',
+    icon: '🔬',
+    unlocked: false,
+    category: 'science',
+    educationalFact: 'Scientific research collected on Mars answers whether ancient Mars ever hosted microscopic life in its past lakebeds.',
+  },
+  {
+    id: 'water_saver',
+    title: 'Water Saver',
+    description: 'Maintain high water recycling efficiency and keep water reservoirs above 65%.',
+    icon: '💧',
+    unlocked: false,
+    category: 'water',
+    educationalFact: 'The ISS Water Processor Assembly recycles approximately 98% of crew urine and humidity condensate, saving over 10,000 lbs of water launches per year.',
+  },
+  {
+    id: 'sustainable_engineer',
+    title: 'Sustainable Engineer',
+    description: 'Reach Sol 20 with all 4 primary resources in Healthy status simultaneously.',
+    icon: '⚙️',
+    unlocked: false,
+    category: 'mastery',
+    educationalFact: 'True sustainability in space engineering means closed-loop resource balance with near-zero consumable waste.',
+  },
+  {
+    id: 'mars_survivor',
+    title: 'Mars Survivor',
+    description: 'Survive all 30 Martian Sols and establish a thriving long-term research outpost on the Red Planet.',
+    icon: '🏆',
+    unlocked: false,
+    category: 'survival',
+    educationalFact: 'Humanity’s first 30 Sols on Mars will lay the foundation for permanent self-sustaining cities across the solar system.',
+  },
+  {
+    id: 'master_commander',
+    title: 'Master Commander',
+    description: 'Complete the mission with 100% crew survival and an overall mission evaluation of A+ or A.',
+    icon: '⭐',
+    unlocked: false,
+    category: 'mastery',
+    educationalFact: 'Great commanders balance scientific ambition with deep empathy and relentless protection of their crew.',
+  },
+  {
+    id: 'space_scholar',
+    title: 'Space Scholar',
+    description: 'Pass 5 or more Mars Academy science quizzes with flying colors.',
+    icon: '🎓',
+    unlocked: false,
+    category: 'science',
+    educationalFact: 'Learning the real science behind space exploration prepares the next generation of engineers to travel to Mars.',
+  },
+];
